@@ -18,7 +18,7 @@ namespace SmartX_Telemetry.Models
             Timestamp = DateTime.Now;
         }
 
-        // Constructor overloading: Parameterized constructor
+        // Constructor overloading- Parameterized constructor
         public TelemetryPacket(string deviceId, T sensorValue, string locationZone)
         {
             DeviceId = deviceId;
