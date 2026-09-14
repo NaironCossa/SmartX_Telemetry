@@ -9,13 +9,12 @@ namespace SmartX_Telemetry
         {
             InitializeComponent();
 
-            // Wire up the button click event
-            BtnIngestion.Click += BtnIngestion_Click;
+            // Log application launch
+            Services.TelemetryLoggerService.LogInfo("Smart-X Application Gateway initialized successfully.");
 
-            // Load the ingestion view by default on startup
+            BtnIngestion.Click += BtnIngestion_Click;
             MainFrame.Navigate(new IngestionView());
         }
-
         private void BtnIngestion_Click(object sender, RoutedEventArgs e)
         {
             // Navigate the central frame to our custom UserControl
