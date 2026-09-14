@@ -21,5 +21,10 @@ namespace SmartX_Telemetry
             // Navigate the central frame to our custom UserControl
             MainFrame.Navigate(new IngestionView());
         }
+
+        private void BtnCommandStream_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new CommandStreamView());
+        }
     }
 }

@@ -18,8 +18,8 @@
                 <Button Name="BtnIngestion" Content="Sensor Data Ingestion" Background="#007ACC" Foreground="White" 
                         Height="40" Margin="0,5" BorderThickness="0" Cursor="Hand"/>
 
-                <Button Content="Command Stream (Part 2)" Background="#3E3E42" Foreground="#858585" 
-                        Height="40" Margin="0,5" BorderThickness="0" IsEnabled="False"/>
+                <Button Name="BtnCommandStream" Content="Command Stream (Part 2)" Background="#007ACC" Foreground="White" 
+        Height="40" Margin="0,5" BorderThickness="0" Cursor="Hand" Click="BtnCommandStream_Click"/>
 
                 <Button Content="Mesh Routing (PoE)" Background="#3E3E42" Foreground="#858585" 
                         Height="40" Margin="0,5" BorderThickness="0" IsEnabled="False"/>
