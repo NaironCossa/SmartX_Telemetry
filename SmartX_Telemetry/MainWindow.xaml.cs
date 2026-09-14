@@ -26,5 +26,10 @@ namespace SmartX_Telemetry
         {
             MainFrame.Navigate(new CommandStreamView());
         }
+
+        private void BtnMeshRouting_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new MeshRoutingView());
+        }
     }
 }
